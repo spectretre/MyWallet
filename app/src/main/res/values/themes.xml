@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyWallet" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_dark_1363DF</item>
+        <item name="colorPrimaryVariant">@color/primary_47B5FF</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_F0D9FF</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark_BFA2DB</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="fontFamily">@font/urbanist</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="materialAlertDialogTitleTextStyle">?attr/textAppearanceHeadline5</item>
+        <item name="materialAlertDialogBodyTextStyle">?attr/textAppearanceBody2</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.MyWallet.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MaterialComponents.FloatingActionButton" parent="" tools:ignore="PrivateResource">
+    <item name="cornerFamily">rounded</item>
+    <item name="cornerSize">@dimen/rounded_6dp</item>
+    </style>
+
+
+
+    <style name="Theme.MyWallet.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.MyWallet.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="splashScreen" parent="Theme.MaterialComponents.Light.NoActionBar" >
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>
